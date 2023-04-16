@@ -40,8 +40,8 @@ h2  {
     /* border-width: 3px; */                           /*  линии сокруг квадрата сверху снизу справа слева */
     /* border-style: solid; */
     /* border-color:black;  */ 
-    border: 3px solid black                          комбинация настроек для /линий/-solid-dashet- пунктир вокруг квадрата
-    margin: 20px
+    border: 3px solid black;                          /* комбинация настроек для /линий/-solid-dashet- пунктир вокруг квадрата */
+    margin: 20px;
 
 }
 
