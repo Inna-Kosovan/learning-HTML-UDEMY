@@ -4,12 +4,12 @@
 /*     свойство:  значение; */
 /* } */
 h1{
-    text-align:center;
+    text-align: center;
 
 }
 
 
-h2  { 
+h2{ 
     color:hsla(300, 66%, 42%, 0.829);                  /* вет всех загаловков h2 */
     font-size:20px;                                     /* размер всех заголовков h2 */
     text-align:center;                                  /* поставить заголовок по центру,слева справа          */    
@@ -19,7 +19,6 @@ h2  {
     /* text-decoration:line-through; */                         /* все заголовки стали зачеркнуты */  
     font-size:30px;                                       /*размер загаловков в пикселя*/
 
-
 }
 
 h3{
@@ -28,12 +27,13 @@ h3{
 }
 
 .text{
+    
     font-weight: 900 ;                                  /* выделить определенные слова в тексте <span class="text">Oh dear ! Oh dear !</span> */
     text-transform: uppercase;                          /*выделеные слова каждая буква большая*/
 }
 
 .chapter{                                                  /* меняет цвет заголовка только один/выбраный отдельно */
-    color:rgba(255,20,147,0.5);                         /* делаем цвет полупрозрачный */
+    color:rgba(196, 21, 114, 0.5);                         /* делаем цвет полупрозрачный */
 
 }
 
@@ -42,22 +42,29 @@ h3{
     font-weight: bold ;                                 /* жирность текста-словами-' *//*  */
 }
 
-
 /* блочная модель CSS */
-
-.box {
-
-    width: 300px;
-    height: 300px;
-    background-color: green; 
-    padding: 20px; 
-    border: 3px solid black;                          /* комбинация настроек для /линий/-solid-dashet- пунктир вокруг квадрата */
+.box{
     
-    /* border-width: 3px; */                           /*  линии сокруг квадрата сверху снизу справа слева */
-    /* border-style: solid; */
-    /* border-color:black;  */ 
-    border: 3px solid black;                          /* комбинация настроек для /линий/-solid-dashet- пунктир вокруг квадрата */
+}
+
+
+
+
+
+
+
+
+
+
+
     margin: 20px;
 
-}
+
+
+
+
+
+
+
+
 
