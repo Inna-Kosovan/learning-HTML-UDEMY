@@ -3,49 +3,62 @@
 /*     свойство:  значение;  */
 /*     свойство:  значение; */
 /* } */
-h1{
-    text-align: center;
+h1 {
+    text-align:center;
 
 }
 
 
 h2{ 
-    color:hsla(300, 66%, 42%, 0.829);                  /* вет всех загаловков h2 */
-    font-size: 20px;                                     /* размер всех заголовков h2 */
-    text-align: center;                                  /* поставить заголовок по центру,слева справа          */    
+    color:rgb(26, 139, 139);                  /* вет всех загаловков h2 */
+    font-size:20px;                                     /* размер всех заголовков h2 */
+                                    /* поставить заголовок по центру,слева справа          */    
     font-weight: 900 ;                                  /* жирность текста ''-цифрами-''*//*  */                           
     font-style: italic;                                 /* стиль текста   */      
     text-decoration: underline;                        /* все заголовки стали подчеркнуты */
     /* text-decoration:line-through; */                         /* все заголовки стали зачеркнуты */  
-    font-size: 30px;                                       /*размер загаловков в пикселя*/
-
+    font-size:30px;                                       /*размер загаловков в пикселя*/
+    text-align:justify;
 }
 
 h3 {
-    text-align: left;
+    text-align:justify;
 }
 
-.text {
-    
-    font-weight: 900 ;                                  /* выделить определенные слова в тексте <span class="text">Oh dear ! Oh dear !</span> */
-    text-transform: uppercase;                          /*выделеные слова каждая буква большая*/
-}
+/* .text { */
+/*      */
+/*     font-weight: 900 ;         */                          /* выделить определенные слова в тексте <span class="text">Oh dear ! Oh dear !</span> */
+/*     text-transform: uppercase; */                          /*выделеные слова каждая буква большая*/
+/* } */
 
 .chapter {                                                  /* меняет цвет заголовка только один/выбраный отдельно */
-    color:rgba(196, 21, 114, 0.5);                         /* делаем цвет полупрозрачный */
-
+    color:rgb(143, 35, 35);                         /* делаем цвет полупрозрачный */
+    outline-color:blueviolet
 }
 
 #begin {                                                  /* селектор по уникальному идентификатору */
-    color:rgb(18, 49, 150);
+    color:rgb(146, 152, 172);
     font-weight: bold ;                                 /* жирность текста-словами-' *//*  */
 }
 
-.box {
-    width: 300px;  
-    height: 300px;
-    background-color: aqua;
+.wrapper {
+    width: 620px;
+    height: 110px;
+    margin: 5px;
+    padding: 10px;
+    border: 6px solid rgb(28, 207, 201);
+  
 }
+/* .box{ */
+/*     text-transform: uppercase; */
+/*  */
+/* } */
+/*  */
+  
+
+
+
+
 
 
 
