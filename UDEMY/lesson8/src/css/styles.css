@@ -81,6 +81,13 @@ a {
     margin: 20px;
     width: 500px;
 }
+img {
+    display: block;
+    margin: 0 auto;                                 /* выравнивание картинки по центру*/
+    width: 500px;
+}
+
+
 
 
 /* Блочные елементы*/
