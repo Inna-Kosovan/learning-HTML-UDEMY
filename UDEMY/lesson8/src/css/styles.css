@@ -90,14 +90,16 @@ img {
 /*  */
 nav {                                   
 /* static. relative position    *//*  */
-    position: relative;                                         /* расположить  елемент в определенном месте на странице */
+    position: relative;                                         /* расположить  елемент в определенном месте на странице РАБОТАЕТ ТОЛЬКО ВНУТРИ БЛОКА К КОТОРОМ СТОИТ POSITION RELATIVE */
     left: 0px;                                                 /* наше меню ушло на 30 пыкселей в право*/
     bottom: 50px;                                              /* сдвинуть наш елемент в верх */
     /* top: 150px;                                                 сдвинуть наш елемент в низ  */
 /* bottom, top. right. left*/
 }
 
-
+.example {
+    background-color: grey;
+}
 
 
 
