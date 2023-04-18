@@ -7,12 +7,20 @@ div{
     color: red
 
 }
+.wrapper .element {
+    color: orange
 
+}
 .big {
 
     color: black
 }
 #second {                           /*уныкальный идентификатор*/
+    color:yellow;
+
+}
+
+#second.element {          
     color:yellow;
 
 }
