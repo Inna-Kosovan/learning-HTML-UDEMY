@@ -59,7 +59,8 @@ h3 {
     /* border-style: solid; */
     /* border-color:black;  */ 
     border: 3px solid black;                          /* комбинация настроек для /линий/-solid-dashet- пунктир вокруг квадрата */
-    margin: 20px
+    margin: 20px;
+    z-index: 5;                                     /* определяет позицию елемента*/
 
 }
 .pink {
@@ -89,16 +90,31 @@ img {
 /* nav {  распол любой елем в люб месте на странице  */
 /*  */
 nav {                                   
-/* static. relative position    *//*  */
+/* static. relative. position. absolute. fixed . (inherit) для унаследования родительских свойств расположение  *//*  */
     position: relative;                                         /* расположить  елемент в определенном месте на странице РАБОТАЕТ ТОЛЬКО ВНУТРИ БЛОКА К КОТОРОМ СТОИТ POSITION RELATIVE */
     left: 0px;                                                 /* наше меню ушло на 30 пыкселей в право*/
-    bottom: 50px;                                              /* сдвинуть наш елемент в верх */
+    top: center;                                              /* сдвинуть наш елемент в верх */
     /* top: 150px;                                                 сдвинуть наш елемент в низ  */
 /* bottom, top. right. left*/
 }
 
-.example {                                          /* серый блок для меню и заголовка*/
-    background-color: grey;
+.red {                              /* красный квадрат ложится поверх зеленых*/
+    position: absolute;
+    left: 80px;
+    background-color: red;
+    z-index: -1;                                 /* определяет расположение елемента если мы устанорвим /-1/ то наш квадрат будет на заднем фоне/ за зелеными квадратами */
+}
+
+/*.example {                                          /* серый блок для меню и заголовка*/
+   /* background-color: grey;
+   /* height: 300px;                                  /*высота блока*/
+
+/*}
+/* ефект карточной колоды когда елементы спрятаны один под другим*/
+
+.example {
+
+    position: relative;
 }
 
 
