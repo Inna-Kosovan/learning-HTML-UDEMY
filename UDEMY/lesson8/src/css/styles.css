@@ -97,7 +97,7 @@ nav {
 /* bottom, top. right. left*/
 }
 
-.example {
+.example {                                          /* серый блок для меню и заголовка*/
     background-color: grey;
 }
 
