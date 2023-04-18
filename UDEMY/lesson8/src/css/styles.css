@@ -3,42 +3,41 @@
 /*     свойство:  значение;  */
 /*     свойство:  значение; */
 /* } */
-h1{
+h1 {
     text-align:center;
 
 }
 
-/*  */
-h2  { 
-    color:hsla(300, 66%, 42%, 0.829);                  /* вет всех загаловков h2 */
+
+h2{ 
+    color:rgb(26, 139, 139);                  /* вет всех загаловков h2 */
     font-size:20px;                                     /* размер всех заголовков h2 */
-    text-align:center;                                  /* поставить заголовок по центру,слева справа          */    
+                                    /* поставить заголовок по центру,слева справа          */    
     font-weight: 900 ;                                  /* жирность текста ''-цифрами-''*//*  */                           
     font-style: italic;                                 /* стиль текста   */      
-    text-decoration:underline;                        /* все заголовки стали подчеркнуты */
+    text-decoration: underline;                        /* все заголовки стали подчеркнуты */
     /* text-decoration:line-through; */                         /* все заголовки стали зачеркнуты */  
     font-size:30px;                                       /*размер загаловков в пикселя*/
-
-
+    text-align:justify;
 }
 
-h3{
-
-    text-align:center;
+h3 {
+    text-align:justify;
 }
 
-.text{
-    font-weight: 900 ;                                  /* выделить определенные слова в тексте <span class="text">Oh dear ! Oh dear !</span> */
-    text-transform: uppercase;                          /*выделеные слова каждая буква большая*/
+/* .text { */
+/*      */
+/*     font-weight: 900 ;         */                          /* выделить определенные слова в тексте <span class="text">Oh dear ! Oh dear !</span> */
+/*     text-transform: uppercase; */                          /*выделеные слова каждая буква большая*/
+/* } */
+
+.chapter {                                                  /* меняет цвет заголовка только один/выбраный отдельно */
+    color:rgb(143, 35, 35);                         /* делаем цвет полупрозрачный */
+    outline-color:blueviolet
 }
 
-.chapter{                                                  /* меняет цвет заголовка только один/выбраный отдельно */
-    color:rgba(255,20,147,0.5);                         /* делаем цвет полупрозрачный */
-
-}
-
-#begin{                                                  /* селектор по уникальному идентификатору */
-    color:rgb(18, 49, 150);
+#begin {                                                  /* селектор по уникальному идентификатору */
+    color:rgb(146, 152, 172);
     font-weight: bold ;                                 /* жирность текста-словами-' *//*  */
 }
 
@@ -55,7 +54,59 @@ h3{
     /* border-style: solid; */
     /* border-color:black;  */ 
     border: 3px solid black;                          /* комбинация настроек для /линий/-solid-dashet- пунктир вокруг квадрата */
-    margin: 50px
+    margin: 20px
 
 }
+/* .box{ */
+/*     text-transform: uppercase; */
+/*  */
+/* } */
+/*  */
+  
+
+/* <!DOCTYPE html> */
+/* <html> */
+/* <body> */
+/*  */
+/* <h1>The map and area elements</h1> */
+/*  */
+/* <p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p> */
+/*  */
+/* <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379"> */
+/*  */
+/* <map name="workmap"> */
+/*   <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm"> */
+/*   <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm"> */
+/*   <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm"> */
+/* </map> */
+/*  */
+/* </body> */
+/* </html> */
+/*  */
+/*  */
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
 
