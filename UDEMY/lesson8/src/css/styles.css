@@ -3,9 +3,8 @@
 /*     свойство:  значение;  */
 /*     свойство:  значение; */
 /* } */
-h1 {
+h1,h2,h3 {
     text-align:center;
-
 }
 
 
@@ -18,11 +17,11 @@ h2{
     text-decoration: underline;                        /* все заголовки стали подчеркнуты */
     /* text-decoration:line-through; */                         /* все заголовки стали зачеркнуты */  
     font-size:30px;                                       /*размер загаловков в пикселя*/
-    text-align:justify;
+    text-align:center;
 }
 
 h3 {
-    text-align:justify;
+    text-align:center;
 }
 
 /* .text { */
@@ -45,6 +44,7 @@ h3 {
 /* блочная модель CSS */
 
 .box {
+    box-sizing: border-box;
     width: 300px;
     height: 300px;
     background-color: green; 
@@ -57,34 +57,35 @@ h3 {
     margin: 20px
 
 }
-/* .box{ */
-/*     text-transform: uppercase; */
-/*  */
-/* } */
-/*  */
-  
+.pink {
+    color: blueviolet;
+    font-size: 30px;
+}
 
-/* <!DOCTYPE html> */
-/* <html> */
-/* <body> */
-/*  */
-/* <h1>The map and area elements</h1> */
-/*  */
-/* <p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p> */
-/*  */
-/* <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379"> */
-/*  */
-/* <map name="workmap"> */
-/*   <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm"> */
-/*   <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm"> */
-/*   <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm"> */
-/* </map> */
-/*  */
-/* </body> */
-/* </html> */
-/*  */
-/*  */
-/*  */
+
+/* Блочные елементы*/
+/* Строчные*/
+/* Строчно-Блочные */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
