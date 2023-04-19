@@ -5,8 +5,15 @@
 }
 
 
+.container{
+    width: 1140px;
+    
+}
+
 .promo {
 
     height: 800px;
     background: url('../img/bg/main_bg.png') center center / cover no-repeat;
 }
+
+
