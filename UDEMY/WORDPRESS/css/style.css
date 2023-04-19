@@ -8,5 +8,5 @@
 .promo {
 
     height: 800px;
-    background: url('../img/bg/Main_bg.png') center center cover
+    background: url('../img/bg/main_bg.png') center center / cover no-repeat;
 }
