@@ -17,4 +17,12 @@
     background: url('../img/bg/main_bg.png') center center / cover no-repeat;
 }
 
+.logo .logo_img {
+    display: block;   
+    margin: 0 auto;
+}
+
+
+
+
 
