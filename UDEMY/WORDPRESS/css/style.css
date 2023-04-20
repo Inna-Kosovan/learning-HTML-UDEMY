@@ -105,8 +105,35 @@ h2.title {
     cursor: pointer;
       /* left: 805px;*/
     /*top: 551px;*/
-}          
+} 
+.more {
+    margin-top: 73px;
+
+}  
+.more .more_text {
+    color: #FFFFFF;
+    font-family: "Roboto - Thin";
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    
+}       
    
+.more .more_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+
+
+}
+
+
+
+
+
+
+
    
    
 
