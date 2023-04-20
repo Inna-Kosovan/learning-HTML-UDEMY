@@ -47,8 +47,13 @@ h1 {
     text-align: center;
     
 }        
-   
-.simple .title_big {
+
+h2.title {                                      
+    margin-top: 30px;                                   /* растояние между заголовками h1 i h2*/
+}
+
+
+.simple .title_big {                                /* ставим пробел когда ЕСЛИ внутри класса есть еще один вложений клас*/
     color: #FFFFFF;
     font-family: "Roboto - Black";
     font-size: 80px;
@@ -56,6 +61,7 @@ h1 {
     /*line-height: 24px;*/
     text-transform: uppercase;
     text-align: center;
+    margin-top: 21px;
 
 
 
