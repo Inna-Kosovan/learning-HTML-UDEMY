@@ -146,14 +146,27 @@ h2.title {
 }
 
 .waiting .waiting_divider {                 /* полоска*/
-    height: 7px;
-    width: 220px;
-    border-radius: 0px;
-    background: #F9BF3B;
+    height: 4px;
+    width: 217px;
+    background-color: #F9BF3B;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+
+.waiting .waiting_subheader {                                       /*подзаголовок*/
+    margin-top: 17px;
+    color: #4A4A4A;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+
+}
+.waiting .waiting_wrapper {                 /* обвертка*/
+    margin-top: 45px;
 
 
 }
-
 
 
 
