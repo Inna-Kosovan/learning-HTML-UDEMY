@@ -193,5 +193,14 @@ h2.title {
 
 .waiting .waiting_wrapper .waiting_item .waiting_img {
     width: 100%;
+}
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+    margin-top: 33px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
+    
 
-} 
