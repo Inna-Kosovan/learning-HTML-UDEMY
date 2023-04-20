@@ -165,7 +165,12 @@ h2.title {
 .waiting .waiting_wrapper {                 /* обвертка*/
     margin-top: 45px;
 }
-.waiting .waiting_wrapper .waiting_item{                /*стилизация наших трех картинок*/
+
+.waiting .waiting_wrapper .waiting_Item {                   /*стилизация наших трех картинок*/
+    display: inline-block; 
+    vertical-align: top;
+    width: 339px;
+    text-align: center;               
     display: inline-block;
     width: 339px;
     text-align: center;
