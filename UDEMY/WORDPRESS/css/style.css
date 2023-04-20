@@ -1,33 +1,39 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.container{                     /* блок в котором будет весь текст и центр*/
+.container {
+    /* блок в котором будет весь текст и центр*/
     width: 1140px;
     margin: 0 auto;
 
 }
 
-.promo {                                    /* задний фон*/
+.promo {
+    /* задний фон*/
 
     height: 800px;
     background: url('../img/bg/main_bg.png') center center / cover no-repeat;
     padding: 39px 0 62px 0;
 }
 
-.logo .logo_img {                           /* лого рисунок*/
-    display: block;   
+.logo .logo_img {
+    /* лого рисунок*/
+    display: block;
     margin: 0 auto;
 
 }
-.logo .logo_text {                      /* лого текст*/
+
+.logo .logo_text {
+    /* лого текст*/
     color: #ffffff;
     font-size: 15px;
     font-family: "Roboto - Black";
     font-weight: 500;
-    line-height: 24px;                      /* строчній интервал*/
+    line-height: 24px;
+    /* строчній интервал*/
     text-transform: uppercase;
     text-align: center;
     margin-top: 14px;
@@ -37,7 +43,8 @@ h1 {
     margin-top: 53px;
 }
 
-.title {                                        /* заголовок*/
+.title {
+    /* заголовок*/
     color: #F9BF3B;
     font-family: "Roboto - Black";
     font-size: 41px;
@@ -45,15 +52,17 @@ h1 {
     line-height: 24px;
     text-transform: uppercase;
     text-align: center;
-    
-}        
 
-h2.title {                                      
-    margin-top: 30px;                                   /* заголовок h2 у которого класс title*/
+}
+
+h2.title {
+    margin-top: 30px;
+    /* заголовок h2 у которого класс title*/
 }
 
 
-.simple .title_big {                                /* ставим пробел когда ЕСЛИ внутри класса есть еще один вложений клас*/
+.simple .title_big {
+    /* ставим пробел когда ЕСЛИ внутри класса есть еще один вложений клас*/
     color: #FFFFFF;
     font-family: "Roboto - Black";
     font-size: 80px;
@@ -63,8 +72,10 @@ h2.title {
     text-align: center;
     margin-top: 21px;
 
-}    
-.promo .promo_text {                        /* текст выравнивание*/
+}
+
+.promo .promo_text {
+    /* текст выравнивание*/
     padding: 0 13px;
     margin-top: 30px;
     color: #FFFFFF;
@@ -74,42 +85,48 @@ h2.title {
     font-family: "Roboto Light";
     text-align: center;
 
-}    
-   
-.promo .promo_text span {               /*перекрасит слово в тексте в другой цвет*/
+}
+
+.promo .promo_text span {
+    /*перекрасит слово в тексте в другой цвет*/
     color: #F9BF3B;
     font-family: "Roboto Light";
     font-weight: 700;
     font-size: 21px;
-    
-   /* line-height: 28px;*/
-    
+
+    /* line-height: 28px;*/
+
     /*text-align: center;*/
 
-}    
+}
+
 .promo .promo_btn {
-    display:block;
-    margin: 0px auto;                                /* выравнять кнопку и сверху и снизу одинаково по центру*/
+    display: block;
+    margin: 0px auto;
+    /* выравнять кнопку и сверху и снизу одинаково по центру*/
     margin-top: 73px;
     width: 313px;
     height: 72px;
     box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
     border: 4px solid rgba(0, 0, 0, 0.23);
-    background-image: linear-gradient( to top, #2798B9 0%, #3AB6DA 100%);
-    color: #FFFFFF;                         /*добавили стиль текста*/
+    background-image: linear-gradient(to top, #2798B9 0%, #3AB6DA 100%);
+    color: #FFFFFF;
+    /*добавили стиль текста*/
     font-family: "RobotoCondensed";
     font-size: 21px;
     font-weight: 400;
     line-height: 24px;
     text-transform: uppercase;
     cursor: pointer;
-      /* left: 805px;*/
+    /* left: 805px;*/
     /*top: 551px;*/
-} 
+}
+
 .more {
     margin-top: 73px;
 
-}  
+}
+
 .more .more_text {
     color: #FFFFFF;
     font-family: "Roboto - Thin";
@@ -117,9 +134,9 @@ h2.title {
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
-    
-}       
-   
+
+}
+
 .more .more_img {
     display: block;
     margin: 0 auto;
@@ -128,24 +145,24 @@ h2.title {
 }
 
 .waiting {
-    height: 604px; 
+    height: 604px;
     background-color: #efefef;
     padding: 85px 0 75px 0;
-         
+
 }
 
-.waiting .waiting_header {                  /* заголовок в центр*/
+.waiting .waiting_header {
     color: #252525;
     font-family: Roboto;
     font-size: 30px;
     font-weight: 400;
     line-height: 12px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     text-align: center;
 
 }
 
-.waiting .waiting_divider {                 /* полоска*/
+.waiting .waiting_divider {
     height: 4px;
     width: 217px;
     background-color: #F9BF3B;
@@ -153,7 +170,7 @@ h2.title {
     margin-top: 23px;
 }
 
-.waiting .waiting_subheader {                                       /*подзаголовок*/
+.waiting .waiting_subheader {
     margin-top: 17px;
     color: #4A4A4A;
     font-family: Roboto;
@@ -162,18 +179,19 @@ h2.title {
     text-align: center;
 
 }
-.waiting .waiting_wrapper {                 /* обвертка*/
+
+.waiting .waiting_wrapper {
     margin-top: 45px;
 }
-
-.waiting .waiting_wrapper .waiting_Item {                   /*стилизация наших трех картинок*/
-    display: inline-block; 
-    vertical-align: top;
-    width: 339px;
-    text-align: center;               
+.waiting_wrapper .waiting_item{
     display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
     width: 339px;
     text-align: center;
-}                   
-    
-    
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 100%;
+
+} 
