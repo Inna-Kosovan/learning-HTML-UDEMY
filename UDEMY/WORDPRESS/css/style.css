@@ -125,11 +125,34 @@ h2.title {
     margin: 0 auto;
     margin-top: 13px;
 
+}
+
+.waiting {
+    height: 604px; 
+    background-color: #efefef;
+    padding: 85px 0 75px 0;
+         
+}
+
+.waiting .waiting_header {                  /* заголовок в центр*/
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 12px;
+    text-transform: uppercase; 
+    text-align: center;
 
 }
 
+.waiting .waiting_divider {
+    height: 7px;
+    width: 220px;
+    border-radius: 0px;
+    background: #F9BF3B;
 
 
+}
 
 
 
