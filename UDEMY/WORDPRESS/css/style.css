@@ -145,7 +145,7 @@ h2.title {
 
 }
 
-.waiting .waiting_divider {
+.waiting .waiting_divider {                 /* полоска*/
     height: 7px;
     width: 220px;
     border-radius: 0px;
