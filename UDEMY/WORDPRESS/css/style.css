@@ -63,18 +63,30 @@ h2.title {
     text-align: center;
     margin-top: 21px;
 
-
-
-
-
-
-
-
+}    
+.promo .promo_text {
+    padding: 0 13px;
+    color: #FFFFFF;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 28px;
+    font-family: "Roboto Light";
+    text-align: center;
 
 }    
+   
+.promo .promo_text span {
+    color: #F9BF3B;
+    font-family: "Roboto Light";
+    font-weight: 700;
+    font-size: 21px;
     
-   
-   
+   /* line-height: 28px;*/
+    
+    /*text-align: center;*/
+
+}    
+     
    
    
    
