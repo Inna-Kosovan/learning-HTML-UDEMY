@@ -4,7 +4,6 @@
     padding: 0;
 }
 
-
 .container{
     width: 1140px;
     margin: 0 auto;
@@ -22,20 +21,61 @@
     display: block;   
     margin: 0 auto;
 
-
 }
 .logo .logo_text {
     color: #ffffff;
     font-size: 15px;
-    font-family: Roboto;
+    font-family: "Roboto - Black";
     font-weight: 500;
     line-height: 24px;                      /* строчній интервал*/
     text-transform: uppercase;
     text-align: center;
     margin-top: 14px;
-
-
 }
+
+h1 {
+    margin-top: 53px;
+}
+
+.title {
+    color: #F9BF3B;
+    font-family: "Roboto - Black";
+    font-size: 41px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}        
+   
+.simple .title_big {
+    color: #FFFFFF;
+    font-family: "Roboto - Black";
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+
+
+
+
+
+
+
+
+
+}    
+    
+   
+   
+   
+   
+   
+
+   
+
+
 
 
 
