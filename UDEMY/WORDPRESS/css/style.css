@@ -205,7 +205,7 @@ h2.title {
 
 
 .my-flex-container {
-    display: block;
+    display: flex;
     height: 450px;
     
 }
