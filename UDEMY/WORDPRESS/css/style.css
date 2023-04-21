@@ -4,8 +4,8 @@
     padding: 0;
 }
 
-.container {
-    /* блок в котором будет весь текст и центр*/
+.container {                                    /* блок в котором будет весь текст и центр*/
+    position: relative;                                                         
     width: 1140px;
     margin: 0 auto;
 
@@ -233,10 +233,14 @@ h2.title {
 .optimization .optimization_text span{             /* настройки для выделеного жирным текста */
     font-family: "Roboto - Bolt";
     font-weight: 700px;
-      
 }          
 
+.optimization .optimization_img {                       /* настройки для рисунка */
+    position: absolute;
+    top: -54px;
+    left: -240px;
 
+}
 
 
 
