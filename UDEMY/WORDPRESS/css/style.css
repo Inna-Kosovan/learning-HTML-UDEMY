@@ -151,7 +151,7 @@ h2.title {
 
 }
 
-.waiting .waiting_header {
+.waiting .waiting_header, .finish .finish_header {
     color: #252525;
     font-family: Roboto;
     font-size: 30px;
@@ -162,7 +162,7 @@ h2.title {
 
 }
 
-.waiting .waiting_divider {
+.waiting .waiting_divider, .finish .finish_divider {                
     height: 4px;
     width: 217px;
     background-color: #F9BF3B;
@@ -239,7 +239,7 @@ h2.title {
     position: absolute;
     top: -54px;
     left: -240px;
-    z-index: -1;
+    z-index: -1;                /* картинка полупрозрачная под текстом */
 }
 
 
