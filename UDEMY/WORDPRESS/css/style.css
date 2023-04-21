@@ -180,13 +180,14 @@ h2.title {
 
 }
 
-.waiting .waiting_wrapper {
+.waiting .waiting_wrapper {                         /* обвертка */
+    display: flex;
+    justify-content: space-between;
     margin-top: 45px;
 }
 .waiting_wrapper .waiting_item{
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 15px;
+    
+    
     width: 339px;
     text-align: center;
 }
