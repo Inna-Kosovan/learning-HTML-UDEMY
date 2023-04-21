@@ -242,7 +242,11 @@ h2.title {
     z-index: -1;                /* картинка полупрозрачная под текстом */
 }
 
-
+.finish {
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background:  url("../img/bg/second_bg.png") center center/cover no-repeat;
+}
 
 
 
