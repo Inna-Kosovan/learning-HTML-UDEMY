@@ -206,6 +206,7 @@ h2.title {
 
 .my-flex-container {
     display: flex;
+    justify-content: space-around;
     height: 450px;
     
 }
