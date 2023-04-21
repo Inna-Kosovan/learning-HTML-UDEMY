@@ -204,9 +204,10 @@ h2.title {
 }
 
 
-.my-flex-container {
-    display: flex;
+.my-flex-container {                    
+    display: flex;                                              /* выравнивание елементов по главной оси в  контейнере */
     justify-content: space-around;
+    align-items: center;                                           /* выравнивание по поперечной оси */
     height: 450px;
     
 }
