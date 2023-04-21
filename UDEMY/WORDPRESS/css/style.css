@@ -251,7 +251,14 @@ h2.title {
     background:  url("../img/bg/second_bg.png") center center/cover no-repeat;
 }
 
+.finish .finish_wrapper {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+    
 
+
+}
 
 
 
