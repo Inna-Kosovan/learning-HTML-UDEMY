@@ -145,7 +145,7 @@ h2.title {
 }
 
 .waiting {
-    height: 604px;
+    min-height: 604px;
     background-color: #efefef;
     padding: 85px 0 75px 0;
 
@@ -180,7 +180,7 @@ h2.title {
 
 }
 
-.waiting .waiting_wrapper {                         /* обвертка */
+.waiting .waiting_wrapper {                         /* обвертка FLEX */
     display: flex;
     justify-content: space-between;
     margin-top: 45px;
