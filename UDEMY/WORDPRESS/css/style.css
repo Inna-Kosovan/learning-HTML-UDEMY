@@ -205,18 +205,18 @@ h2.title {
 
 
 /* .my-flex-container {                     */
-/*     display: flex;                                               */
-/*     justify-content: space-around;                                 /* выравнивание елементов по главной оси в  контейнере */      */
-/*     align-items: center;                                           /* выравнивание по поперечной оси */ */
-/*     height: 450px; */
+    /* display: flex;                                               */
+    /* justify-content: space-around;                                 выравнивание елементов по главной оси в  контейнере */     
+    /* align-items: center;                                           выравнивание по поперечной оси */
+    /* height: 450px; */
 /*      */
 /* } */
 /*  */
 /* .my-flex-block { */
-/*     width: 150px; */
-/*     height: 150px; */
-/*     background-color: red; */
-/*     text-align: center; */
+    /* width: 150px; */
+    /* height: 150px; */
+    /* background-color: red; */
+    /* text-align: center; */
 /*      */
 /* } */
 /*  */
