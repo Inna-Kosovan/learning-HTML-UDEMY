@@ -210,6 +210,34 @@ h2.title {
 
 }
 
+.optimization .optimization_header {                    /* прописываем отдельный селектор */
+    margin-left: 391px;
+    color: #299CBD;
+    font-family: "Roboto - Black";
+    font-size: 28px;
+    font-weight: 400px;
+    text-transform: uppercase;
+
+}
+.optimization .optimization_text {          /* настройки для текста */
+    margin-left: 391px;
+    color: #4a4a4a;
+    font-family: "Roboto Light";
+    font-size: 17px;
+    font-weight: 300;
+    font-height: 27px;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 /* .my-flex-container {                     */
     /* display: flex;                                               */
