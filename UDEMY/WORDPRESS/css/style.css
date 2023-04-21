@@ -210,7 +210,7 @@ h2.title {
 
 }
 
-.optimization .optimization_header{                    /* прописываем отдельный селектор */
+.optimization .optimization_header {                    /* прописываем отдельный селектор */
     margin-left: 391px;
     color: #299CBD;
     font-family: "Roboto - Black";
@@ -219,7 +219,7 @@ h2.title {
     text-transform: uppercase;
 
 }
-.optimization .optimization_text{          /* настройки для текста */
+.optimization .optimization_text {          /* настройки для текста */
     margin-top: 20px;
     margin-left: 391px;
     color: #4a4a4a;
@@ -230,16 +230,16 @@ h2.title {
 
 }
 
-.optimization .optimization_text span{             /* настройки для выделеного жирным текста */
+.optimization .optimization_text span {             /* настройки для выделеного жирным текста */
     font-family: "Roboto - Bolt";
     font-weight: 700px;
 }          
 
-.optimization .optimization_img{                       /* настройки для рисунка */
+.optimization .optimization_img {                       /* настройки для рисунка */
     position: absolute;
     top: -54px;
     left: -240px;
-
+    z-index: -1;
 }
 
 
