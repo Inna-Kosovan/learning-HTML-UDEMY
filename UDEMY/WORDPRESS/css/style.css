@@ -290,9 +290,10 @@ h2.title {
     padding: 39px 0 62px 0;
 }
 .gift .gift_icon {
-    align-content: center;
-    
-
+    display: block;
+    margin: 0 auto;   
+}
+   
 /* .my-flex-container {                     */
     /* display: flex;                                               */
     /* justify-content: space-around;                                 выравнивание елементов по главной оси в  контейнере */     
