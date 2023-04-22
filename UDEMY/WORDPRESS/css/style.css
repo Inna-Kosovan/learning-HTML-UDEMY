@@ -262,13 +262,14 @@ h2.title {
 }
 
 .finish .finish_wrapper .finish_item .finish_round { /* кружок */
-    background-color: #B4E2FF;
+    display: flex;
+    justify-content: center;    /* выравнять по главной оси */
+    align-items: center;        /* выравнять по поперечной оси */
     height: 118px;
     width: 118px;
-    left: 1370px;
-    top: 176px;
     border-radius: 100%;         /* округление елемента  */
-        
+    background-color: #B4E2FF;   
+
 } 
 
 
