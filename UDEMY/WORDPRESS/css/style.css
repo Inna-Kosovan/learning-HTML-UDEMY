@@ -293,7 +293,17 @@ h2.title {
     display: block;
     margin: 0 auto;   
 }
-   
+.promo2_text {
+    display: flex;
+    text-align: center;
+    font-family: 'Roboto';    
+    color: #252525;
+
+    
+    
+    
+    
+}   
 /* .my-flex-container {                     */
     /* display: flex;                                               */
     /* justify-content: space-around;                                 выравнивание елементов по главной оси в  контейнере */     
