@@ -284,6 +284,14 @@ h2.title {
     
 }
 
+.promo2 {    /* задний фон*/
+    height: 628px;
+    background: #EFEFEF; center center / cover no-repeat;
+    padding: 39px 0 62px 0;
+}
+.gift .gift_icon {
+    align-content: center;
+    
 
 /* .my-flex-container {                     */
     /* display: flex;                                               */
