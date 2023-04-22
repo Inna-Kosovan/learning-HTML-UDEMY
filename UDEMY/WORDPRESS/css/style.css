@@ -251,12 +251,25 @@ h2.title {
     background:  url("../img/bg/second_bg.png") center center/cover no-repeat;
 }
 
-.finish .finish_wrapper {
+.finish .finish_wrapper {  /* обвертка */
     margin-top: 41px;
     display: flex;
     justify-content: space-between;
 }
+.finish .finish_wrapper .finish_item {      /* ширина основного елемента */
+    width: 204px;
+     
+}
 
+.finish .finish_wrapper .finish_item .finish_round { /* кружок */
+    background-color: #B4E2FF;
+    height: 118px;
+    width: 118px;
+    left: 1370px;
+    top: 176px;
+    border-radius: 100%;         /* округление елемента  */
+        
+} 
 
 
 
