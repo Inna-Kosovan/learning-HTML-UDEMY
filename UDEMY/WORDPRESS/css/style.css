@@ -329,48 +329,47 @@ h2.title {
 
 .first{
     display: block;
-    width: 577px;
+    justify-content: center;
     margin-top: 0 auto;
 
 }
 
 .first_img {
-    display: block;
+    display: flex;
     top: 8px;
     margin: 0 auto;
-    width: 342px;
     height: 201px;
 }
-.first .title {
+.first .title2 {
     background: #252525;
     top: 245px;
-    position: absolute;
+    justify-content: center;
+    justify-content: center;
     width: 477px;
     height: 30px;
-    left: 49px;
-    
-
-
-
-
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;                                 
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
 }                                        /* заголовок*/
     
    
 
 
 
-h2.first_header .first_divider {
-    margin-top: 30px;
+/* .h2 .first_header {
     height: 30px;
     width: 477px;
-    left: 49px;
     top: 245px;
     
                                                                                    /* заголовок h2 у которого класс title*/
-}
+
     
     
-   
+
     
     
     
