@@ -309,14 +309,15 @@ h2.title {
 
 }
 
-.gift .gift_icon {                                       /* размер для gift_icon */
+.gift .gift_icon {
+    /* размер для gift_icon */
     display: block;
     margin-top: 88px;
     width: 154px;
     height: 174px;
-     margin: 0 auto;
+    margin: 0 auto;
     align-items: center;
-                                                      
+
 }
 
 .promo2 .promo2_text {
@@ -359,7 +360,7 @@ h2.title {
     display: block;
     justify-content: center;
     margin: 0 auto;
-    background: rgba(0, 0, 0, 0.0001);
+
 }
 
 .first_img {
@@ -402,6 +403,7 @@ h2.title {
     text-transform: uppercase;
 
 }
+
 .first_subheader {
     color: #4A4A4A;
     margin: 0 auto;
@@ -419,8 +421,30 @@ h2.title {
 
 }
 
+.site-footer {
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #1A1A1A;
+    height: 169px;
+}
 
-
+.footer_text {
+    justify-content: center;
+    margin-top: 57px;
+    margin: 0 auto;
+    color: #888888;
+    width: 407px;
+    height: 43px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+}
 
 
 /* .h2 .first_header {
