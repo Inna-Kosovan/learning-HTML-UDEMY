@@ -279,17 +279,22 @@ h2.title {
     font-size: 20px;
     
 }
+ 
 
-.promo2 {                                            /* задний фон*/
-    height: 628px;
-    top: 2px;
+.promo2 {
+    height: 604px;
+    background-color: #efefef;
+    margin-top: 0px;
+
 }
+
 .gift .gift_icon {                                              /* размер для gift_icon */
+    top: 8px;
     display: block;
-    margin: 88px auto;
-
+    margin: 0 auto;
 
 }
+
 .promo2 .promo2_text {                      /* настройки текст 2 */            
     top: 307px;
     text-align: center;
@@ -303,8 +308,6 @@ h2.title {
     text-align: center;
 }    
  
-
-
 .promo2 .promo2_btn {           /* выравнять кнопку и сверху и снизу одинаково по центру*/
     display: block;
     margin: 0px auto;
@@ -323,9 +326,48 @@ h2.title {
     cursor: pointer;                                                        /* принаведении курсор переходит в ручку */
    
 }
+
+.first{
+    display: block;
+    width: 577px;
+    margin-top: 0 auto;
+
+}
+
+.first_img {
+    display: block;
+    top: 8px;
+    margin: 0 auto;
+    width: 342px;
+    height: 201px;
+}
+.first .title {
+    background: #252525;
+    top: 245px;
+    position: absolute;
+    width: 477px;
+    height: 30px;
+    left: 49px;
     
+
+
+
+
+}                                        /* заголовок*/
     
+   
+
+
+
+h2.first_header .first_divider {
+    margin-top: 30px;
+    height: 30px;
+    width: 477px;
+    left: 49px;
+    top: 245px;
     
+                                                                                   /* заголовок h2 у которого класс title*/
+}
     
     
    
