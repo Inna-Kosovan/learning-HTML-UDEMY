@@ -430,10 +430,11 @@ h2.title {
 }
 
 .footer_text {
-    margin-top:57px;
+    margin:0 auto 57px 0 ;
     align-items: center;
     text-align: center;
     justify-content: center;
+    align-self: center;
     color: #888888;
     font-size:15px;
     font-weight: 300px;
