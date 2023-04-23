@@ -4,8 +4,9 @@
     padding: 0;
 }
 
-.container {                                    /* блок в котором будет весь текст и центр*/
-    position: relative;                                                         
+.container {
+    /* блок в котором будет весь текст и центр*/
+    position: relative;
     width: 1140px;
     margin: 0 auto;
 
@@ -151,7 +152,8 @@ h2.title {
 
 }
 
-.waiting .waiting_header, .finish .finish_header {
+.waiting .waiting_header,
+.finish .finish_header {
     color: #252525;
     font-family: Roboto;
     font-size: 30px;
@@ -161,11 +163,13 @@ h2.title {
     text-align: center;
 
 }
-.finish .finish_header{
+
+.finish .finish_header {
     color: #fff;
 }
 
-.waiting .waiting_divider, .finish .finish_divider {                
+.waiting .waiting_divider,
+.finish .finish_divider {
     height: 4px;
     width: 217px;
     background-color: #F9BF3B;
@@ -183,12 +187,14 @@ h2.title {
 
 }
 
-.waiting .waiting_wrapper {                         /* обвертка FLEX */
+.waiting .waiting_wrapper {
+    /* обвертка FLEX */
     display: flex;
     justify-content: space-between;
     margin-top: 45px;
 }
-.waiting_wrapper .waiting_item{
+
+.waiting_wrapper .waiting_item {
     width: 339px;
     text-align: center;
 }
@@ -196,6 +202,7 @@ h2.title {
 .waiting .waiting_wrapper .waiting_item .waiting_img {
     width: 100%;
 }
+
 .waiting .waiting_wrapper .waiting_item .waiting_descr {
     margin-top: 33px;
     color: #4a4a4a;
@@ -204,14 +211,17 @@ h2.title {
     font-weight: 300;
     line-height: 21px;
 }
-.optimization {                /*  размеры секции верх низ справа слева */
+
+.optimization {
+    /*  размеры секции верх низ справа слева */
     min-height: 550px;
     padding: 102px 0 107px 0;
 
 
 }
 
-.optimization .optimization_header {                    /* прописываем отдельный селектор */
+.optimization .optimization_header {
+    /* прописываем отдельный селектор */
     margin-left: 391px;
     color: #299CBD;
     font-family: "Roboto - Black";
@@ -220,7 +230,9 @@ h2.title {
     text-transform: uppercase;
 
 }
-.optimization .optimization_text {          /* настройки для текста */
+
+.optimization .optimization_text {
+    /* настройки для текста */
     margin-top: 20px;
     margin-left: 391px;
     color: #4a4a4a;
@@ -231,43 +243,53 @@ h2.title {
 
 }
 
-.optimization .optimization_text span {             /* настройки для выделеного жирным текста */
+.optimization .optimization_text span {
+    /* настройки для выделеного жирным текста */
     font-family: "Roboto - Bolt";
     font-weight: 700px;
-}          
+}
 
-.optimization .optimization_img {                       /* настройки для рисунка */
+.optimization .optimization_img {
+    /* настройки для рисунка */
     position: absolute;
     top: -54px;
     left: -240px;
-    z-index: -1;                /* картинка полупрозрачная под текстом */
+    z-index: -1;
+    /* картинка полупрозрачная под текстом */
 }
 
-.finish {  /* ставим картинку как задний фон ставим картинку как задний полупрозрачный фон в центрк*/
+.finish {
+    /* ставим картинку как задний фон ставим картинку как задний полупрозрачный фон в центрк*/
     min-height: 447px;
     padding: 86px 0 79px 0;
-    background:  url("../img/bg/second_bg.png") center center/cover no-repeat;
+    background: url("../img/bg/second_bg.png") center center/cover no-repeat;
 }
 
-.finish .finish_wrapper {  /* обвертка */
+.finish .finish_wrapper {
+    /* обвертка */
     margin-top: 41px;
     display: flex;
     justify-content: space-between;
 }
-.finish .finish_wrapper .finish_item {      /* ширина основного елемента */
+
+.finish .finish_wrapper .finish_item {
+    /* ширина основного елемента */
     width: 204px;
-     
+
 }
 
-.finish .finish_wrapper .finish_item .finish_round { /* кружок */
+.finish .finish_wrapper .finish_item .finish_round {
+    /* кружок */
     display: flex;
-    justify-content: center;    /* выравнять по главной оси */
-    align-items: center;        /* выравнять по поперечной оси */
-    margin: 0 auto;        
+    justify-content: center;
+    /* выравнять по главной оси */
+    align-items: center;
+    /* выравнять по поперечной оси */
+    margin: 0 auto;
     height: 118px;
     width: 118px;
-    border-radius: 100%;    
-} 
+    border-radius: 100%;
+}
 
 .finish .finish_wrapper .finish_item .finish_descr {
     margin-top: 25px;
@@ -277,26 +299,29 @@ h2.title {
     font-size: 17px;
     font-weight: 300;
     font-size: 20px;
-    
+
 }
- 
 
 .promo2 {
-    height: 604px;
+    height: 631px;
     background-color: #efefef;
     margin-top: 0px;
 
 }
 
-.gift .gift_icon {                                              /* размер для gift_icon */
-    top: 8px;
+.gift .gift_icon {                                       /* размер для gift_icon */
     display: block;
-    margin: 0 auto;
-
+    margin-top: 88px;
+    width: 154px;
+    height: 174px;
+     margin: 0 auto;
+    align-items: center;
+                                                      
 }
 
-.promo2 .promo2_text {                      /* настройки текст 2 */            
-    top: 307px;
+.promo2 .promo2_text {
+    /* настройки текст 2 */
+    margin-top: 85px;
     text-align: center;
     color: #252525;
     line-height: 43px;
@@ -306,57 +331,95 @@ h2.title {
     display: flex;
     align-items: center;
     text-align: center;
-}    
- 
-.promo2 .promo2_btn {           /* выравнять кнопку и сверху и снизу одинаково по центру*/
+}
+
+.promo2 .promo2_btn {
+    /* выравнять кнопку и сверху и снизу одинаково по центру*/
     display: block;
     margin: 0px auto;
     margin-top: 73px;
     width: 313px;
     height: 72px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.80);
-    border: 0px solid rgba(0, 0, 0, 0.4);                               /* настройки для теней кнопки */
+    border: 0px solid rgba(0, 0, 0, 0.4);
+    /* настройки для теней кнопки */
     background-image: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
-    color: #FFFFFF;                                                                  /*добавили стиль текста*/
+    color: #FFFFFF;
+    /*добавили стиль текста*/
     font-family: "RobotoCondensed";
     font-size: 21px;
     font-weight: 400;
     line-height: 24px;
     text-transform: uppercase;
-    cursor: pointer;                                                        /* принаведении курсор переходит в ручку */
-   
+    cursor: pointer;
+    /* принаведении курсор переходит в ручку */
 }
 
-.first{
+.first {
     display: block;
     justify-content: center;
-    margin-top: 0 auto;
-
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.0001);
 }
 
 .first_img {
     display: flex;
-    top: 8px;
+    margin-top: 32px;
     margin: 0 auto;
     height: 201px;
 }
-.first .title2 {
-    background: #252525;
-    top: 245px;
-    justify-content: center;
+
+.title2 {
+    color: #252525;
+    margin: 0 auto;
+    margin-top: 32px;
     justify-content: center;
     width: 477px;
     height: 30px;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 30px;
-    line-height: 30px;                                 
+    line-height: 30px;
     display: flex;
     text-align: center;
     text-transform: uppercase;
-}                                        /* заголовок*/
-    
-   
+}
+
+.first_header {
+    color: #299CBD;
+    margin: 0 auto;
+    width: 607px;
+    height: 31px;
+    left: -15px;
+    top: 305px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.first_subheader {
+    color: #4A4A4A;
+    margin: 0 auto;
+    width: 578px;
+    height: 20px;
+    left: -3px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+
 
 
 
@@ -367,30 +430,30 @@ h2.title {
     
                                                                                    /* заголовок h2 у которого класс title*/
 
-    
-    
 
-    
-    
-    
-   
-    
-    
-    
-     
+
+
+
+
+
+
+
+
+
+
 /* .my-flex-container {                     */
-    /* display: flex;                                               */
-    /* justify-content: space-around;                                 выравнивание елементов по главной оси в  контейнере */     
-    /* align-items: center;                                           выравнивание по поперечной оси */
-    /* height: 450px; */
+/* display: flex;                                               */
+/* justify-content: space-around;                                 выравнивание елементов по главной оси в  контейнере */
+/* align-items: center;                                           выравнивание по поперечной оси */
+/* height: 450px; */
 /*      */
 /* } */
 /*  */
 /* .my-flex-block { */
-    /* width: 150px; */
-    /* height: 150px; */
-    /* background-color: red; */
-    /* text-align: center; */
+/* width: 150px; */
+/* height: 150px; */
+/* background-color: red; */
+/* text-align: center; */
 /*      */
 /* } */
 /*  */
