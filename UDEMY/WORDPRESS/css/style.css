@@ -323,7 +323,7 @@ h2.title {
 .promo2 .promo2_text {
     /* настройки текст 2 */
     margin-top: 85px;
-    text-align: center;
+    text-align: justify;
     color: #252525;
     line-height: 43px;
     font-family: 'Roboto';
@@ -421,7 +421,7 @@ h2.title {
 
 }
 
-.site-footer {
+.footer {
     display: block;
     justify-content: center;
     margin: 0 auto;
@@ -430,29 +430,59 @@ h2.title {
 }
 
 .footer_text {
+    margin-top:57px;
+    align-items: center;
+    text-align: center;
     justify-content: center;
-    margin-top: 57px;
-    margin: 0 auto;
     color: #888888;
+    font-size:15px;
+    font-weight: 300px;
+    display: flex;
+    line-height: 21px;
+    text-decoration-line: underline;
+ 
+}
+/* .title3 {
+    color: #888888;
+    margin: 0 auto;
+    justify-content: center;
+    font-size:15px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height: 21px;
+    text-decoration-line: underline;
+
+}
+.footer_header {
+    color: #888888;
+    margin: 0 ;
+    justify-content: center;
+    font-size:15px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height: 21px;
+    text-decoration-line: underline;
+
+}
+ */
+
+    /* color: #888888;
+    margin: 0 auto;
+    margin-top: 57px;
     width: 407px;
     height: 43px;
     font-family: 'Roboto';
-    font-weight: 300;
+    font-weight: 300px;
     font-size: 15px;
     line-height: 21px;
     display: flex;
     align-items: center;
     text-align: center;
-    text-decoration-line: underline;
-}
-
-
-/* .h2 .first_header {
-    height: 30px;
-    width: 477px;
-    top: 245px;
-    
-                                                                                   /* заголовок h2 у которого класс title*/
+     */
 
 
 
