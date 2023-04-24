@@ -124,7 +124,7 @@ h2.title {
 }
 
 .more {
-    margin-top: 73px;
+    margin-top: 73px; 
 
 }
 
@@ -356,21 +356,21 @@ h2.title {
     /* принаведении курсор переходит в ручку */
 }
 
-.first {
+.first {                /* настройка контейнера */
     display: block;
     justify-content: center;
     margin: 0 auto;
 
 }
 
-.first_img {
+.first_img {                /* настройка картинки */
     display: flex;
     margin-top: 32px;
     margin: 0 auto;
     height: 201px;
 }
 
-.title2 {
+.title2 {                       /* размер заголовка главного 2 */
     color: #252525;
     margin: 0 auto;
     margin-top: 32px;
@@ -386,7 +386,7 @@ h2.title {
     text-transform: uppercase;
 }
 
-.first_header {
+.first_header {                 /* размер заголовка второго */
     color: #299CBD;
     margin: 0 auto;
     width: 607px;
@@ -404,7 +404,7 @@ h2.title {
 
 }
 
-.first_subheader {
+.first_subheader {             /*  размер заголовка три */
     color: #4A4A4A;
     margin: 0 auto;
     width: 578px;
@@ -421,7 +421,7 @@ h2.title {
 
 }
 
-.footer {
+.footer {                   /* футер настройки контейнера */
     display: block;
     justify-content: center;
     margin: 0 auto;
@@ -430,7 +430,7 @@ h2.title {
     position: relative;
 }
 
-.footer_text {
+.footer_text {                  /* футер настройки текста */
     color: #888888;
     justify-content: space-between;
     margin-top: 0 auto;
