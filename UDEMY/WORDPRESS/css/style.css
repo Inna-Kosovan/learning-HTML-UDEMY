@@ -430,19 +430,19 @@ h2.title {
 }
 
 .footer_text {
-    margin:0 auto 57px 0 ;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    align-self: center;
     color: #888888;
+    position: absolute;
+    text-align: center;
+    margin: 54px;
+    margin-left: 758px;
     font-size:15px;
     font-weight: 300px;
-    display: flex;
-    line-height: 21px;
+    display: inline-block;
     text-decoration-line: underline;
  
 }
+
+
 /* .title3 {
     color: #888888;
     margin: 0 auto;
