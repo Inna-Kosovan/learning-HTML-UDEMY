@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+
+html {
+    font-family: verdana, arial, helvetica, sans-serif;
+    
+}
 .container {
     /* блок в котором будет весь текст и центр*/
     position: relative;
@@ -31,7 +36,7 @@
     /* лого текст*/
     color: #ffffff;
     font-size: 15px;
-    font-family: "Roboto - Black";
+    /* font-family: "Roboto - Black"; */
     font-weight: 500;
     line-height: 24px;
     /* строчній интервал*/
@@ -47,7 +52,7 @@ h1 {
 .title {
     /* заголовок*/
     color: #F9BF3B;
-    font-family: "Roboto - Black";
+    /* font-family: "Roboto - Black"; */
     font-size: 41px;
     font-weight: 400;
     line-height: 24px;
@@ -65,7 +70,7 @@ h2.title {
 .simple .title_big {
     /* ставим пробел когда ЕСЛИ внутри класса есть еще один вложений клас*/
     color: #FFFFFF;
-    font-family: "Roboto - Black";
+    /* font-family: "Roboto - Black"; */
     font-size: 80px;
     font-weight: 400;
     /*line-height: 24px;*/
@@ -224,7 +229,7 @@ h2.title {
     /* прописываем отдельный селектор */
     margin-left: 391px;
     color: #299CBD;
-    font-family: "Roboto - Black";
+   /*  font-family: "Roboto - Black"; */
     font-size: 28px;
     font-weight: 400px;
     text-transform: uppercase;
@@ -295,7 +300,7 @@ h2.title {
     margin-top: 25px;
     text-align: center;
     color: #EFEFEF;
-    font-family: 'Roboto';
+    /* font-family: 'Roboto'; */
     font-size: 17px;
     font-weight: 300;
     font-size: 20px;
@@ -326,7 +331,7 @@ h2.title {
     text-align: justify;
     color: #252525;
     line-height: 43px;
-    font-family: 'Roboto';
+   /*  font-family: 'Roboto'; */
     font-weight: 400;
     font-size: 30px;
     display: flex;
@@ -435,9 +440,9 @@ h2.title {
     justify-content: space-between;
     margin-top: 0 auto;
     padding-top: 54px;
+    font-family: 'Roboto';
     font-size:15px;
     font-weight: 300px;
-    
     display: block;
     text-align: center;
     align-items:center;
