@@ -427,17 +427,20 @@ h2.title {
     margin: 0 auto;
     background-color: #1A1A1A;
     height: 169px;
+    position: relative;
 }
 
 .footer_text {
     color: #888888;
-    position: absolute;
-    text-align: center;
-    margin: 54px;
-    margin-left: 758px;
+    justify-content: space-between;
+    margin-top: 0 auto;
+    padding-top: 54px;
     font-size:15px;
     font-weight: 300px;
-    display: inline-block;
+    
+    display: block;
+    text-align: center;
+    align-items:center;
     text-decoration-line: underline;
  
 }
