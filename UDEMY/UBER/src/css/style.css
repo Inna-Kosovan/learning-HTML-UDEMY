@@ -5,7 +5,11 @@ header {
     height: 50px;
     background: #212121;
 }
-header nav {
-    padding: 0 70px;
+.menu {
+    display: flex;
+    justify-content: space-between;             /* выравнять по вертикали */
+    padding: 10px 70px;
+    margin: 0;
+    list-style-type: none;
 }
 
