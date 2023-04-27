@@ -41,6 +41,25 @@ nav {
     color: #FFFFFF;
     font-weight: 400;
     font-size: 13px;
+}
+.subheader .subheader_call {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 8px;
+    text-align: right;
+}
+
+.subheader .subheader_phone {
+    color: #FFFFFF;
+    display: block;
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;   
+    text-align: center;
+    line-height: 12px;
     
 
-} 
+
+}
