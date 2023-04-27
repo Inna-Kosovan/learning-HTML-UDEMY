@@ -8,8 +8,13 @@ header {
 .menu {
     display: flex;
     justify-content: space-between;             /* выравнять по вертикали */
-    padding: 10px 70px;
+    padding: 13px 70px;
     margin: 0;
     list-style-type: none;
 }
 
+.menu .menu_link {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 15px;
+   }
