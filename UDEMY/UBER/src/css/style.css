@@ -24,7 +24,23 @@ nav {
     padding-right: 28px;
 }
 
-.subheader {
+.subheader {                               /*  логотип */
     height: 84px;
     background-color: rgba(0,0,0, .6);
 }
+
+.subheader .subheader_logo { 
+    display: block;                  /*  если ширина лого поменяется размер будет занимать 100 проц */
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .subheader_official {
+    margin-top: 6px;
+    opacity: 0.5;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 13px;
+    
+
+} 
