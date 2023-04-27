@@ -1,5 +1,11 @@
 * {
     font-family: 'roboto', sans-serif;
 }  
-
+header {
+    height: 50px;
+    background: #212121;
+}
+header nav {
+    padding: 0 70px;
+}
 
