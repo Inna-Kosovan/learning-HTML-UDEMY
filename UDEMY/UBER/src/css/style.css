@@ -1,7 +1,7 @@
 * {
     font-family: 'roboto', sans-serif;
 }  
-header {
+nav {
     height: 50px;
     background: #212121;
 }
@@ -18,3 +18,15 @@ header {
     font-weight: 300;
     font-size: 15px;
    }
+
+.menu .menu_item {                            /* разделители */
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader {
+    height: 84px;
+    background-color: rgba(0,0,0, .6);
+    
+
+}
