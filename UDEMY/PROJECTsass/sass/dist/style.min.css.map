@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.sass"],"names":[],"mappings":"AAAA,GACE,MAAO,IAGT,GACE,MAAO","file":"style.min.css","sourcesContent":["h1\n    color: red\n\nh2  \n    color: blue\n                 "]}

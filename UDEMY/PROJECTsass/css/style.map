@@ -5,8 +5,8 @@
 		"../sass/style.sass"
 	],
 	"sourcesContent": [
-		""
+		"h1 {\n    color: red; }\nh2 {\n    color:red {} }\n"
 	],
 	"names": [],
-	"mappings": ""
+	"mappings": ";AAAA,AAAA,EAAE,CAAC;EACC,KAAK,EAAE,GAAG;CAAG"
 }
