@@ -1,7 +1,46 @@
+@charset "UTF-8";
+/* переменная можна поместить только цвет  */
+/* line 8, ../learning-HTML-UDEMY/UDEMY/PROJECTsass/sass/style.sass */
 h1 {
-  color: red;
+  color: blue;
+  font-size: 50px;
+  display: block;
+  width: 250px;
+  height: 200px;
+  background-color: red;
 }
 
+/* line 13, ../learning-HTML-UDEMY/UDEMY/PROJECTsass/sass/style.sass */
 h2 {
   color: blue;
 }
+
+/* line 15, ../learning-HTML-UDEMY/UDEMY/PROJECTsass/sass/style.sass */
+.block {
+  background-color: black;
+}
+
+/* line 17, ../learning-HTML-UDEMY/UDEMY/PROJECTsass/sass/style.sass */
+.block h3 {
+  color: blue;
+}
+
+/* line 19, ../learning-HTML-UDEMY/UDEMY/PROJECTsass/sass/style.sass */
+.block_color {
+  background-color: #fff;
+}
+
+/* line 21, ../learning-HTML-UDEMY/UDEMY/PROJECTsass/sass/style.sass */
+.block_color button {
+  display: block;
+  width: 250px;
+  height: 200px;
+  background-color: red;
+}
+
+/* line 23, ../learning-HTML-UDEMY/UDEMY/PROJECTsass/sass/style.sass */
+.block .block_color {
+  color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */

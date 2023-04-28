@@ -1,2 +1,2 @@
-h1{color:red}h2{color:#00f}
+@charset "UTF-8";.block_color button,h1{display:block;width:250px;height:200px}.block .block_color,.block h3,h1,h2{color:#00f}h1{font-size:50px;background-color:red}.block{background-color:#000}.block_color{background-color:#fff}.block_color button{background-color:red}
 /*# sourceMappingURL=style.min.css.map */
