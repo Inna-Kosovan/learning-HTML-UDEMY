@@ -12,29 +12,24 @@ nav {
     margin: 0;
     list-style-type: none;
 }
-
 .menu .menu_link {
     color: #FFFFFF;
     font-weight: 300;
     font-size: 15px;
    }
-
 .menu .menu_item {                            /* разделители */
     border-right: 2px dotted black;
     padding-right: 28px;
 }
-
 .subheader {                               /*  логотип */
     height: 84px;
     background-color: rgba(0,0,0, .6);
 }
-
 .subheader .subheader_logo { 
     display: block;                  /*  если ширина лого поменяется размер будет занимать 100 проц */
     max-width: 100%;
     margin-top: 16px;
 }
-
 .subheader .subheader_official {
     margin-top: 6px;
     opacity: 0.5;
@@ -49,7 +44,6 @@ nav {
     margin-top: 19px;
     text-align: right;
 }
-
 .subheader .subheader_phone {               /* ссылка на телефон */
     display: block;
     margin-top: 8px;
@@ -59,7 +53,6 @@ nav {
     text-transform: uppercase;   /* все заглавные буквы */
     text-align: right;
     line-height: 12px;
-
 }
 .subheader .subheader_btn { 
     margin-top: 19px;                   /*  кнопка заказатьзвонок */
@@ -73,5 +66,53 @@ nav {
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
     color: #FFFFFF;
     font-size: 14px;
-      
+}
+.promo {
+    min-height: 800px;
+    background: url('../img/uberBg.png')center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+.promo .promo_header {
+    color: #FFFFFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 60px; 
+    margin: 0;
+    text-align: center;
+}
+.promo .promo_subheader {
+    color: #FFFFFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 36px; 
+    margin: 0; 
+    margin-top: 22px;
+    text-align: center;
+} 
+
+.promo .promo_descr {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.promo .promo_btn {                    /*  кнопка  */
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    background-image: linear-gradient(to top, #1EACC7 0%, #4CE2FF 100%);
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
 }
