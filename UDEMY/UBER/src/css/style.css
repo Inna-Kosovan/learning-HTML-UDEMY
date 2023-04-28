@@ -1,6 +1,9 @@
 * {
     font-family: 'roboto', sans-serif;
-}  
+} 
+header {
+    position: relative;
+} 
 nav {
     height: 50px;
     background: #212121;
@@ -22,6 +25,8 @@ nav {
     padding-right: 28px;
 }
 .subheader {                               /*  логотип */
+    position: absolute;
+    width: 100%;
     height: 84px;
     background-color: rgba(0,0,0, .6);
 }
