@@ -1,7 +1,7 @@
 * {
-    font-family: 'roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
-
+/* Обратите внимание на измения для "липкой" шапки, пометил их звездочкой ниже */
 header {
     position: relative;
     height: 50px; /* * */
@@ -21,7 +21,7 @@ nav {
     display: flex;
     justify-content: space-between;             /* выравнять по вертикали */
     padding: 13px 70px;
-    margin: 0;
+    margin: auto;
     list-style-type: none;
 }
 .menu .menu_link {
@@ -56,12 +56,12 @@ nav {
     color: #FFFFFF;
     font-size: 12px;
     font-weight: 300;
-    margin-top: 19px;
+    margin-top: 23px;
     text-align: right;
 }
 .subheader .subheader_phone {               /* ссылка на телефон */
     display: block;
-    margin-top: 8px;
+    margin-top: 16px;
     color: #FFFFFF;
     font-size: 22px;
     font-weight: 400px;   
@@ -83,7 +83,7 @@ nav {
     font-size: 14px;
 }
 .promo {
-    min-height: 800px;
+    min-height: 900px;
     background: url('../img/uberBg.png')center center/cover no-repeat;
     padding: 150px 0 135px 0;
 }
