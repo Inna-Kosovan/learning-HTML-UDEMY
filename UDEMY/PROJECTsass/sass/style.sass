@@ -1,26 +1,27 @@
 $text_color: blue               /* переменная можна поместить только цвет  */
 @mixin box                          /* расширение */
-    display: block
-    width: 250px
-    height: 200px
-    background-color: red
-    
+	display: block
+	width: 250px
+	height: 200px
+	background-color: red
+	
 h1
-    color: $text_color
-    font-size: 50px
-    @include box
+	color: $text_color
+	font-size: 50px
+	@include box
 
 h2  
-    color: $text_color
+	color: $text_color
 .block
-    background-color: black
-    h3  
-        color: $text_color
-    &_color 
-        background-color: #fff
-        button
-            @include box
-    .block_color
-        color: $text_color
+	background-color: black
+	h3  
+		color: $text_color
+	
+	&_color 
+		background-color: #fff
+		button
+			@include box
+	.block_color
+		color: $text_color
 
-           
+		   
