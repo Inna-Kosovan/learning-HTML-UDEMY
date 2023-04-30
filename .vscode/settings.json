@@ -2,5 +2,6 @@
     "workbench.colorCustomizations": {},
     "liveSassCompile.settings.autoprefix": [
         
-    ]
+    ],
+    "compile-hero.disable-compile-files-on-did-save-code": false
 }
