@@ -137,59 +137,7 @@ nav
 		background-color: #fff
 		color: #000
 
-.title
-	position: relative
-	margin-bottom: 10px
-	margin-top: 2px
-	color: #222222
-	font-size: 38px
-	line-height: 48px
-	font-weight: 700
-	text-transform: uppercase
-	text-align: center
-	z-index: 2
-	&_white 
-		color: #fff
-
-.subtitle
-	position: relative
-	margin-top: 19px
-	color: #222222
-	font-size: 17px
-	font-weight: 400
-	text-align: center
-	z-index: 2
-	&_white 
-		color: #fff
-
-.reasons .reasons_block
-	display: flex
-	justify-content: center
-	align-items: center
-	margin-top: 35px
-	.reasons_round
-		display: flex
-		justify-content: center
-		align-items: center
-		margin-right: 26px
-		width: 113px
-		height: 113px
-		background-color: $main-color
-		border-radius: 100%
-	.reasons_descr
-		width: 343px
-		.reasons_subtitle
-			line-height: 21px
-			color: $main-color
-			font-size: 17px
-			font-weight: 400
-		.reasons_text
-			color: #202020
-			font-size: 15px
-			font-weight: 300
-			line-height: 21px
-	
-.mobile 
+.mobile 							/* стилизация , картинок */
 	min-height: 864px
 	padding: 48px 0 79px 0
 	background: url('../img/bg/mobileBg.png') center (center / cover) no-repeat
@@ -261,3 +209,136 @@ nav
 		width: 100%
 		background-color: #070716
 		z-index: 2
+
+
+.require
+	padding: 68px 0 84px 0
+	&_block 
+		margin: 33px 0
+		&_nmb
+			margin-bottom: 0px
+	&_title 
+		color: #1ca8c3
+		font-size: 22px
+		font-weight: 400
+	&_list 
+		list-style-type: none
+		padding-left: 50px
+		margin-top: 22px
+		li 
+			position: relative
+			font-size: 17px
+			font-weight: 300
+			line-height: 24px
+			margin-bottom: 10px
+			&:before 
+				content: ''
+				display: block 
+				position: absolute
+				left: -32px
+				top: 3px
+				width: 21px 
+				height: 20px
+				background: url('../icon/checkBlue.jpg') center (center / cover) no-repeat
+	&_descr 
+		margin-top: 25px
+		font-size: 17px
+		font-weight: 300
+		line-height: 24px
+		color: #1ca8c3
+	.warning 
+		.require_title
+			color: $second-color
+		.require_list
+			li 
+				&:before
+					background: url('../icon/checkred.png') center (center / cover) no-repeat
+.world 
+	position: relative
+	min-height: 717px
+	padding: 49px 0
+	background: url('../img/worldbg.jpg') center (center / cover) no-repeat
+	&_link 
+		position: absolute
+		left: 50%
+		transform: translateX(-50%)
+		bottom: 49px
+		text-align: center
+		font-size: 15px
+		font-weight: 400
+		line-height: 68px
+		text-transform: uppercase
+		color: #1fbad6
+		&:hover 
+			text-decoration: none
+			color: #fff
+footer 
+	padding: 14px 23px 39px 23px
+	a 
+		&:hover 
+			text-decoration: none
+.footer
+	&_divider
+		width: 299px
+		height: 4px
+		background-color: #1fbad6
+		margin: 0 auto
+	&_wrapper
+		display: flex 
+		justify-content: space-between
+		align-items: flex-start
+		padding-top: 32px
+	&_wrapper > div 
+		width: 33%
+		&:nth-child(3)
+			display: flex 
+			justify-content: flex-end
+	&_social
+		width: 160px
+		display: flex
+		justify-content: space-between
+		&_item 
+			display: flex 
+			justify-content: center
+			align-items: center
+			margin: 0 4px 
+			width: 32px
+			height: 32px
+			background-color: #070716
+			border-radius: 100%
+			i 
+			color: #fff
+	&_links
+		width: 390px
+		margin: 0 auto
+		&_main 
+			display: flex 
+			justify-content: space-between
+			padding: 0 10px
+			a 
+				color: #070716
+				font-size: 15px
+				font-weight: 300
+				text-transform: uppercase
+		&_sub 
+			display: flex 
+			justify-content: space-between
+			margin-top: 10px
+			a 
+				color: #999999
+				font-size: 11px
+				font-weight: 300
+				text-transform: uppercase
+		&_lang 
+			display: block 
+			margin: 0 auto
+			color: #1fbad6
+			font-size: 11px
+			font-weight: 400
+			margin-top: 19px
+			text-transform: uppercase
+			text-align: center
+
+	
+
+		
