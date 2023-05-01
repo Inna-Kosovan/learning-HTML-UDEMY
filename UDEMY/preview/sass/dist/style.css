@@ -2,23 +2,35 @@
   box-sizing: border-box;
 }
 
-* button {
+button {
   width: 250px;
   height: 50px;
   background-color: #ffe66b;
   border: none;
   cursor: pointer;
+  transition: 0.10s all;
+  outline: none;
 }
 
-* button:hover {
+button:hover {
   background-color: pink;
   color: #fff;
 }
 
-* .circle {
+button:active {
+  background-color: orange;
+}
+
+button:focus {
+  background-color: grey;
+}
+
+.circle {
   width: 50px;
   height: 50px;
   background-color: green;
   border-radius: 100%;
   margin-top: 10px;
 }
+
+/*# sourceMappingURL=style.css.map */
