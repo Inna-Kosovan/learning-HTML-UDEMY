@@ -1,0 +1,1 @@
+*{box-sizing:border-box}* button{width:250px;height:50px;background-color:#ffe66b;border:none;cursor:pointer}* button:hover{background-color:pink;color:#fff}* .circle{width:50px;height:50px;background-color:green;border-radius:100%;margin-top:10px}
