@@ -1,1 +1,1 @@
-{"version":3,"names":[],"mappings":"","sources":["style.sass"],"sourcesContent":["\n\n\n\t\t\n\t\n*\n\tfont-family: 'Roboto', sans-serif\n\n\n\t&_mobile\n\t\n\n\t\t"],"file":"style.css"}
+{"version":3,"names":[],"mappings":"","sources":["style.sass"],"sourcesContent":["*\n\tfont-family: 'Roboto', sans-serif\n\t\n"],"file":"style.css"}

@@ -1,3 +1,4 @@
+
 header
 	position: relative
 	height: 50px
@@ -9,6 +10,9 @@ nav
 	background-color: #212121
 	z-index: 5
 
+.hamburger
+	display: none
+
 .menu
 	display: flex
 	justify-content: space-between
@@ -19,9 +23,14 @@ nav
 		color: #ffffff
 		font-size: 15px
 		font-weight: 300
+		&:hover
+			text-decoration: none
+			color: $main-color
 	&_item
 		border-right: 2px dotted black
 		padding-right: 28px
+		&:last-child
+			border-right: none
 
 .subheader
 	position: absolute
