@@ -244,6 +244,14 @@ nav {
   cursor: pointer;
 }
 
+.mobile_item_plus::before {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: #1eacc7;
+}
+
 .choice {
   position: relative;
   min-height: 895px;
