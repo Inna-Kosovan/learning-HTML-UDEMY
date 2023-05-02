@@ -1,0 +1,2 @@
+*{box-sizing:border-box;margin:0;padding:0}* .fixed{display:inline-block;vertical-align:middle;width:900px;height:300px;background-color:#00f;margin:50px}* .adaptive,* .responsive,* .rubber{display:inline-block;vertical-align:middle;height:300px;margin:20px}* .rubber{width:45%;background-color:#ff0}* .adaptive{width:900px;background-color:red}* .responsive{width:45%;background-color:pink}@media (max-width:992px){.adaptive{width:300px}.responsive{width:100%}}
+/*# sourceMappingURL=style.min.css.map */

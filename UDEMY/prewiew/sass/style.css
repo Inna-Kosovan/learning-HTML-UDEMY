@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+* .fixed {
+  display: inline-block;
+  vertical-align: middle;
+  width: 900px;
+  height: 300px;
+  background-color: blue;
+  margin: 50px;
+}
+
+* .rubber {
+  display: inline-block;
+  vertical-align: middle;
+  width: 45%;
+  height: 300px;
+  background-color: yellow;
+  margin: 20px;
+}
+
+* .adaptive {
+  display: inline-block;
+  vertical-align: middle;
+  width: 900px;
+  height: 300px;
+  background-color: red;
+  margin: 20px;
+}
+
+* .responsive {
+  display: inline-block;
+  vertical-align: middle;
+  width: 45%;
+  height: 300px;
+  background-color: pink;
+  margin: 20px;
+}
+
+@media (max-width: 992px) {
+  .adaptive {
+    width: 300px;
+  }
+  .responsive {
+    width: 100%;
+  }
+}
