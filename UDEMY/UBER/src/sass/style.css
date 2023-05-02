@@ -244,11 +244,22 @@ nav {
   cursor: pointer;
 }
 
-.mobile_item_plus::before {
+.mobile_item_plus:before {
   content: '';
   display: block;
   width: 14px;
   height: 2px;
+  background-color: #1eacc7;
+}
+
+.mobile_item_plus:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  height: 14px;
+  width: 2px;
   background-color: #1eacc7;
 }
 
