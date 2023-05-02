@@ -31,15 +31,22 @@ button:focus {
   background-color: green;
   border-radius: 100%;
   margin-top: 10px;
+  transition: 0.5s all;
 }
 
 .circle:nth-child(2n) {
   background-color: red;
 }
 
-.circle:hover {
+.circle:before {
   content: '';
   display: block;
-  height: 10px;
+  height: 2px;
+  width: 0%;
   background-color: #000;
+  transition: 0.5s all;
+}
+
+.circle:hover::before {
+  width: 100%;
 }

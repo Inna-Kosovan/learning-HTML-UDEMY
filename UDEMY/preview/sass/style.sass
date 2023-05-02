@@ -22,15 +22,19 @@ button
     background-color: green
     border-radius: 100%
     margin-top: 10px
+    transition: 0.5s all
     &:nth-child(2n)
         background-color: red
-    &:hover
-        
-        &:before             /*    ефект навести на елемент  */
+    &:before             /*    ефект навести на елемент  */
         content: ''
         display: block
-        height: 10px
+        height: 2px
+        width: 0%
         background-color: #000
+        transition: 0.5s all
+    &:hover
+        &::before
+            width: 100%
 
 
 
