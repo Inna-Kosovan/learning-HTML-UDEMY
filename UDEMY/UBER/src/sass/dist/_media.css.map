@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["_media.sass"],"sourcesContent":["@media (max-width: 1200px)\n    .menu\n        &_item\n            padding-right: 20px\n        &_link\n            font-size: 13px\n    "],"file":"_media.css"}
