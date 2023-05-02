@@ -236,6 +236,9 @@ nav {
   width: 2px;
   background-color: #1eacc7;
 }
+.mobile_item_plus:hover:before, .mobile_item_plus:hover:after {
+  background-color: #ff5656;
+}
 
 .choice {
   position: relative;
