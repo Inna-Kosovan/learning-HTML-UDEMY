@@ -366,7 +366,7 @@ nav {
   top: 3px;
   width: 21px;
   height: 20px;
-  background: url("../icon/checkBlue.jpg") center center/cover no-repeat;
+  background: url("../icon/checkBlue.png") center center/cover no-repeat;
 }
 .require_descr {
   margin-top: 25px;
@@ -378,7 +378,7 @@ nav {
 .require .warning .require_title {
   color: #ff5656;
 }
-.require .warning .require_list li:before {
+.require .warning li:before {
   background: url("../icon/checkred.png") center center/cover no-repeat;
 }
 
