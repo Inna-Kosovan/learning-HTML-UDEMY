@@ -33,4 +33,15 @@ button:focus {
   margin-top: 10px;
 }
 
+.circle:nth-child(2n) {
+  background-color: red;
+}
+
+.circle:hover {
+  content: '';
+  display: block;
+  height: 10px;
+  background-color: #000;
+}
+
 /*# sourceMappingURL=style.css.map */
