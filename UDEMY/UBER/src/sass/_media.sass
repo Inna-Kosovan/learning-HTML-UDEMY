@@ -54,7 +54,7 @@
 			font-size: 11px
 		&_phone 
 			font-size: 18px
-		&_btn 
+		&_btn 											/* адаптація кнопки */
 			margin-top: 21px
 			height: 40px	
 			width: 100%
@@ -91,7 +91,7 @@
 			&:nth-child(3)
 				width: 100%
 				justify-content: center
-@media (max-width: 767px)
+@media (max-width: 767px)					/* слідуюча ширина для устройств  */
 	.title 
 		margin-top: 25px
 	.menu
@@ -130,10 +130,10 @@
 			margin-bottom: 2px
 			transition: 0.5s all
 		&_active 
-			span 
-				margin-bottom: -2px 
+			span 							/* трансформація меню при моб просмотрі */
+				margin-bottom: -2px 			/* палочки скороченого меню */
 				&:nth-child(1)
-					transform: translateY(3px) rotate(-45deg)
+					transform: translateY(3px) rotate(-45deg)	
 				&:nth-child(2)
 					display: none
 				&:nth-child(3)
@@ -323,7 +323,7 @@
 			margin: 0 auto
 		&_wrapper
 			padding-top: 22px
-		&_wrapper > div 
+		&_wrapper  
 			margin-bottom: 20px
 			&:nth-child(1)
 				order: 2

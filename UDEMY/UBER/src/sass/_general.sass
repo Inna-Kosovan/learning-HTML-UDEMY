@@ -10,6 +10,7 @@ nav
 	background-color: #212121
 	z-index: 5
 
+
 .hamburger
 	display: none
 
@@ -77,7 +78,7 @@ nav
 		font-weight: 400
 		text-transform: uppercase
 		+btn_hover
-		
+	
 
 .promo
 	min-height: 800px
@@ -125,7 +126,33 @@ nav
 
 
 .reasons
-	padding: 71px 0 65px 0
+	padding: 71px 0 65px 0	
+	&_block
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-top: 35px
+	&_round
+		display: flex
+		justify-content: center
+		align-items: center
+		margin-right: 26px
+		width: 113px
+		height: 113px
+		background-color: $main-color
+		border-radius: 100%
+    &_descr
+		width: 343px
+    &_subtitle
+			line-height: 21px
+			color: $main-color
+			font-size: 17px
+			font-weight: 400
+    &_text
+			color: #202020
+			font-size: 15px
+			font-weight: 300
+			line-height: 21px
 
 .label
 	position: relative
@@ -169,32 +196,7 @@ nav
 	&_white 
 		color: #fff
 
-.reasons .reasons_block
-	display: flex
-	justify-content: center
-	align-items: center
-	margin-top: 35px
-	.reasons_round
-		display: flex
-		justify-content: center
-		align-items: center
-		margin-right: 26px
-		width: 113px
-		height: 113px
-		background-color: $main-color
-		border-radius: 100%
-	.reasons_descr
-		width: 343px
-		.reasons_subtitle
-			line-height: 21px
-			color: $main-color
-			font-size: 17px
-			font-weight: 400
-		.reasons_text
-			color: #202020
-			font-size: 15px
-			font-weight: 300
-			line-height: 21px
+
 
 .mobile 							/* стилизация , картинок */
 	min-height: 864px
