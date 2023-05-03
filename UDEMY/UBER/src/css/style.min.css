@@ -494,7 +494,7 @@ footer a:hover {
   text-align: center;
 }
 .footer .xs-visible {
-  display: none;
+  display: block;
 }
 
 @media (max-width: 1200px) {
@@ -503,6 +503,9 @@ footer a:hover {
   }
   .menu_link {
     font-size: 13px;
+  }
+  .xs-visible {
+    display: none;
   }
   .promo_header {
     font-size: 50px;
@@ -556,6 +559,12 @@ footer a:hover {
   }
   .menu_link {
     font-size: 10px;
+  }
+  .xs-hidden {
+    display: block;
+  }
+  .xs-visible {
+    display: none;
   }
   .subheader_logo img {
     width: 100%;
@@ -675,7 +684,7 @@ footer a:hover {
     display: none;
   }
   .xs-visible {
-    display: block;
+    display: none;
   }
   .subheader_phone {
     display: block;

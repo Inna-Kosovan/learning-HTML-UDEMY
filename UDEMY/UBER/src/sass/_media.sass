@@ -1,9 +1,14 @@
-@media (max-width: 1200px)                      /* максимальна ширина */
-	.menu          /* уменьшимо шрифт меню */
+@media (max-width: 1200px) 
+	.menu          
 		&_item
 			padding-right: 20px
 		&_link
 			font-size: 13px
+	.xs-visible
+		display: none
+	.xs-hidden
+		display:block
+	
 	.promo
 		&_header
 			font-size: 50px
@@ -46,6 +51,10 @@
 			padding-right: 8px
 		&_link
 			font-size: 10px
+	.xs-hidden
+		display: block
+	.xs-visible
+		display: none
 	.subheader
 		&_logo
 			img
@@ -58,6 +67,7 @@
 			margin-top: 21px
 			height: 40px	
 			width: 100%
+	
 	.promo
 		&_header
 			font-size: 40px
@@ -91,6 +101,8 @@
 			&:nth-child(3)
 				width: 100%
 				justify-content: center
+
+
 @media (max-width: 767px)					/* слідуюча ширина для устройств  */
 	.title
 		margin-top: 25px
@@ -141,7 +153,7 @@
 	.xs-hidden
 		display: none
 	.xs-visible
-		display: block
+		display: none
 	.subheader
 		&_phone
 			display: block 
@@ -177,6 +189,8 @@
 		padding: 40px 0
 	.world
 		min-height: 450px
+
+
 @media (max-width: 575px)
 	nav
 		height: 30px
