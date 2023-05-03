@@ -31,7 +31,7 @@ nav {
   font-size: 15px;
   font-weight: 300;
 }
-.menu_link:hover {
+.menu:hover {
   text-decoration: none;
   color: #1eacc7;
 }
@@ -152,6 +152,37 @@ nav {
 
 .reasons {
   padding: 71px 0 65px 0;
+}
+.reasons_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+.reasons_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 26px;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+.reasons_descr {
+  width: 343px;
+}
+.reasons_subtitle {
+  line-height: 21px;
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+}
+.reasons_text {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
 }
 
 .label {
@@ -403,10 +434,10 @@ footer a:hover {
   align-items: flex-start;
   padding-top: 32px;
 }
-.footer_wrapper > div {
+.footer_wrapper {
   width: 33%;
 }
-.footer_wrapper > div:nth-child(3) {
+.footer_wrapper:nth-child(3) {
   display: flex;
   justify-content: flex-end;
 }
@@ -462,6 +493,9 @@ footer a:hover {
   text-transform: uppercase;
   text-align: center;
 }
+.footer .xs-visible {
+  display: none;
+}
 
 @media (max-width: 1200px) {
   .menu_item {
@@ -492,13 +526,13 @@ footer a:hover {
   .require br {
     display: none;
   }
-  .footer_wrapper > div {
+  .footer_wrapper {
     width: 50%;
   }
-  .footer_wrapper > div:nth-child(1) {
+  .footer_wrapper:nth-child(1) {
     width: 25%;
   }
-  .footer_wrapper > div:nth-child(3) {
+  .footer_wrapper:nth-child(3) {
     width: 25%;
     display: flex;
     justify-content: flex-end;
@@ -566,16 +600,16 @@ footer a:hover {
   .footer_wrapper {
     flex-wrap: wrap;
   }
-  .footer_wrapper > div {
+  .footer_wrapper {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
   }
-  .footer_wrapper > div:nth-child(1) {
+  .footer_wrapper:nth-child(1) {
     width: 100%;
   }
-  .footer_wrapper > div:nth-child(3) {
+  .footer_wrapper:nth-child(3) {
     width: 100%;
     justify-content: center;
   }
@@ -878,16 +912,16 @@ footer a:hover {
   .footer_wrapper {
     padding-top: 22px;
   }
-  .footer_wrapper > div {
+  .footer_wrapper {
     margin-bottom: 20px;
   }
-  .footer_wrapper > div:nth-child(1) {
+  .footer_wrapper:nth-child(1) {
     order: 2;
   }
-  .footer_wrapper > div:nth-child(2) {
+  .footer_wrapper:nth-child(2) {
     order: 1;
   }
-  .footer_wrapper > div:nth-child(3) {
+  .footer_wrapper:nth-child(3) {
     order: 3;
   }
   .footer_links {

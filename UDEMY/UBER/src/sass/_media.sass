@@ -1,30 +1,30 @@
 @media (max-width: 1200px)                      /* максимальна ширина */
-	.menu           /* уменьшимо шрифт меню */
-		&_item 
+	.menu          /* уменьшимо шрифт меню */
+		&_item
 			padding-right: 20px
-		&_link 
+		&_link
 			font-size: 13px
 	.promo
-		&_header 
+		&_header
 			font-size: 50px
 	.reasons
-		&_block 
+		&_block
 			align-items: flex-start
-		&_descr 
+		&_descr
 			width: 300px
 	.mobile
-		&_item 
+		&_item
 			width: 290px
 			&_subtitle
 				font-size: 22px
-	.choice 
+	.choice
 		padding: 55px 0
 		min-height: 840px
 	.require
-		br 
+		br
 			display: none
 	.footer
-		&_wrapper > div 
+		&_wrapper
 			width: 50%
 			&:nth-child(1)
 				width: 25%
@@ -34,54 +34,54 @@
 				justify-content: flex-end
 		&_mobile
 			display: flex
-			a 
+			a
 				margin: 0 3px
-				img 
+				img
 					width: 100%
 @media (max-width: 991px)                       /* слідуюча ширина для устройств  */
-	.title 
+	.title
 		font-size: 28px
 	.menu
-		&_item 
+		&_item
 			padding-right: 8px
-		&_link 
+		&_link
 			font-size: 10px
 	.subheader
 		&_logo
-			img 
+			img
 				width: 100%
-		&_official 
+		&_official
 			font-size: 11px
-		&_phone 
+		&_phone
 			font-size: 18px
-		&_btn 											/* адаптація кнопки */
+		&_btn										/* адаптація кнопки */
 			margin-top: 21px
 			height: 40px	
 			width: 100%
 	.promo
-		&_header 
+		&_header
 			font-size: 40px
 		&_subheader
 			font-size: 30px
 	.reasons
-		&_block 
+		&_block
 			flex-direction: column
 			align-items: center
 		&_round
 			margin-right: 0
-		&_descr 
+		&_descr
 			width: 300px
 			margin-top: 20px
-	.choice 
+	.choice
 		min-height: 800px
-		&_img 
+		&_img
 			width: 100%
 	.world
 		min-height: 650px
 	.footer
 		&_wrapper
 			flex-wrap: wrap
-		&_wrapper > div 
+		&_wrapper
 			width: 100%
 			display: flex 
 			justify-content: center
@@ -92,7 +92,7 @@
 				width: 100%
 				justify-content: center
 @media (max-width: 767px)					/* слідуюча ширина для устройств  */
-	.title 
+	.title
 		margin-top: 25px
 	.menu
 		position: fixed
@@ -106,13 +106,13 @@
 		padding: 20px 15px
 		background-color: rgba(0,0,0, .8)
 		transition: 0.6s all
-		&_active 
+		&_active
 			left: 0
-		&_item 
+		&_item
 			padding-right: 0
 			border: none
 			margin: 10px 0
-		&_link 
+		&_link
 			font-size: 20px
 	.hamburger
 		display: block
@@ -122,15 +122,15 @@
 		transform: translateY(-50%)
 		width: 26px
 		height: 12px
-		span 
+		span
 			display: block 
 			height: 2px
 			width: 100%
 			background-color: #fff 
 			margin-bottom: 2px
 			transition: 0.5s all
-		&_active 
-			span 							/* трансформація меню при моб просмотрі */
+		&_active
+			span					/* трансформація меню при моб просмотрі */
 				margin-bottom: -2px 			/* палочки скороченого меню */
 				&:nth-child(1)
 					transform: translateY(3px) rotate(-45deg)	
@@ -140,10 +140,10 @@
 					transform: translateY(3px) rotate(45deg)
 	.xs-hidden
 		display: none
-	.xs-visible 
+	.xs-visible
 		display: block
 	.subheader
-		&_phone 
+		&_phone
 			display: block 
 			margin-top: 10px
 			color: #ffffff
@@ -158,15 +158,15 @@
 			margin: 0 auto
 			margin-top: 10px
 	.promo
-		&_header 
+		&_header
 			line-height: 45px
 	.reasons
 		padding: 40px 0
 		&_descr 
 			width: 350px
-		&_subtitle 
+		&_subtitle
 			text-align: center
-		&_text 
+		&_text
 			margin-top: 10px
 	.mobile 
 		padding: 40px 0
@@ -175,41 +175,41 @@
 		padding: 40px 0
 	.require
 		padding: 40px 0
-	.world 
+	.world
 		min-height: 450px
 @media (max-width: 575px)
-	nav 
+	nav
 		height: 30px
-	header 
+	header
 		height: 30px
-	.title 
+	.title
 		font-size: 16px
 		margin-top: 15px
 		line-height: 16px
-	.subtitle 
+	.subtitle
 		font-size: 14px
 		line-height: 21px
 		margin-top: 11px
 	.subheader
 		height: 60px
 		top: 30px
-		&_official 
+		&_official
 			display: none
-		&_logo 
+		&_logo
 			margin-top: 16px
-		&_phone 
+		&_phone
 			font-size: 12px
 			font-weight: 400
 			text-transform: uppercase
 			margin-top: 11px
-		&_btn 
+		&_btn
 			width: 110px
 			height: 22px
 			font-size: 9px
 			margin-top: 6px
 			&:hover
 				background-image: linear-gradient(to top, $main-color 0%, #4ce2ff 100%)
-	.promo 
+	.promo
 		min-height: 400px
 		padding: 93px 0 35px 0
 		&_descr
@@ -223,24 +223,24 @@
 			margin-top: 33px
 			padding: 0 10px
 			line-height: 30px
-		&_btn 
+		&_btn
 			width: 210px
 			height: 50px
 			margin-top: 72px
 			font-size: 16px
 			&:hover
 				background-image: linear-gradient(to top, $main-color 0%, #4ce2ff 100%)
-	.menu 
+	.menu
 		width: 85%
-		&_item 
+		&_item
 			width: 100%
 			text-align: center
 			padding: 5px 0
 		&_link
 			display: block
 	.hamburger
-		&_active 
-			span 
+		&_active
+			span
 				&:nth-child(1)
 					transform: translateY(5px) rotate(-45deg)
 				&:nth-child(3)
@@ -249,58 +249,58 @@
 		padding: 22px 0 36px 0
 		&_block 
 			margin-top: 26px
-		&_round 
+		&_round
 			width: 100px
 			height: 100px
 		&_descr
 			width: 100%
 			margin-top: 27px
-		&_subtitle 
+		&_subtitle
 			font-size: 16px
 			text-align: left
 		&_text 
 			margin-top: 0
 	.mobile
 		padding: 20px 0 40px 0
-		.row 
+		.row
 			margin-top: 30px
-		&_item 
+		&_item
 			height: 254px
 			padding: 81px 40px 0 40px
 			&_subtitle
 				font-size: 18px
 				line-height: 31px
-			&_plus 
+			&_plus
 				bottom: 28px
-				&:hover 
-					&:before, &:after 
+				&:hover
+					&:before, &:after
 						background-color: $main-color
 	.choice
 		padding: 25px 0 33px 0
 		min-height: 390px
 		background: #000
-		&_img 
+		&_img
 			margin-top: 35px
-		&_descr 
+		&_descr
 			margin-top: 23px
 			color: #ffffff
 			font-size: 17px
 			font-weight: 300
 			line-height: 24px
-		.black 
+		.black
 			display: none 
 	.hidden-320
 		display: none
 	.require
 		padding: 25px
-		&_block 
+		&_block
 			margin: 30px 0 0 0
-		&_title 
+		&_title
 			font-size: 16px
 		&_list
 			padding-left: 30px
 			margin-top: 5px
-			li 
+			li
 				font-size: 14px
 				margin-bottom: 5px
 				line-height: 20px
@@ -310,20 +310,20 @@
 	.world
 		min-height: 360px
 		padding: 25px 0 30px 0
-		&_link 
+		&_link
 			width: 200px
 			display: block
 			bottom: 30px
 			line-height: 15px
-	footer 
+	footer
 		padding: 25px 0 20px 0
-	.footer 
+	.footer
 		&_divider
 			width: 253px
 			margin: 0 auto
 		&_wrapper
 			padding-top: 22px
-		&_wrapper  
+		&_wrapper
 			margin-bottom: 20px
 			&:nth-child(1)
 				order: 2
@@ -331,15 +331,16 @@
 				order: 1
 			&:nth-child(3)
 				order: 3
-		&_links 
+		&_links
 			width: 290px 
 			&_main 
 				padding: 0
 				font-size: 14px
-			&_sub 
+			&_sub
 				flex-wrap: wrap
 				justify-content: center
 				a 
 					margin: 0 7px
-			&_lang 
+			&_lang
 				margin-top: 10px
+	
