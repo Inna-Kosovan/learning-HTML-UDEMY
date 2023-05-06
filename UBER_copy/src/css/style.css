@@ -1,0 +1,194 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+    height: 50px; 
+}
+
+nav {
+    position: fixed; 
+    width: 100%; 
+    height: 50px;
+    background-color: #212121;
+    z-index: 2; 
+     
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;             
+    padding: 13px 70px;
+    margin: auto;
+    list-style-type: none;
+}
+.menu .menu_link {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.menu .menu_item {                            
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+.subheader {                              
+    position: relative;
+    width: 100%;
+    height: 124px;
+    background-color: rgba(0,0,0, .6);
+}
+.subheader .subheader_logo { 
+    display: block;                  
+    max-width: 100%;
+    margin-top: 16px;
+}
+.subheader .subheader_official {
+    margin-top: 6px;
+    opacity: 0.5;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 13px;
+}
+.subheader .subheader_call {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 23px;
+    text-align: right;
+}
+.subheader .subheader_phone {               
+    display: block;
+    margin-top: 16px;
+    color: #FFFFFF;
+    font-size: 22;
+    font-weight: 400px;   
+    text-transform: uppercase;   
+    text-align: right;
+    line-height: 12px;
+}
+.subheader .subheader_btn { 
+    margin-top: 19px;                  
+    width: 172px;    
+    height: 46px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1EACC7 0%, #4CE2FF 100%);
+    text-transform: uppercase;                  
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.promo {
+    min-height: 900px;
+    background: url('../img/uberBg.png')center center/cover no-repeat;
+    
+    padding: 150px 0px 135px 0;
+}
+.promo .promo_header {
+    color: #FFFFFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 60px; 
+    margin: 0;
+    text-align: center;
+}
+.promo .promo_subheader {
+    color: #FFFFFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 36px; 
+    margin: 0; 
+    margin-top: 22px;
+    text-align: center;
+} 
+
+.promo .promo_descr {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.promo .promo_btn {                    
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    background-image: linear-gradient(to top, #1EACC7 0%, #4CE2FF 100%);
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+}
+.reasons {
+    padding: 71px 0 65px 0;
+}
+
+.label {
+    margin: 0 auto;
+    height: 24px;
+    width: 112px;
+    padding: 5px 12px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.title {
+    margin-bottom: 0;
+    margin-top: 38px;
+    color: #222222;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.reasons .reasons_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.reasons .reasons_block .reasons_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+.reasons .reasons_block .reasons_descr {
+    width: 343px;
+}
+
+.reasons .reasons_block .reasons_descr .reasons_subtitle{
+    line-height: 21px;
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.reasons .reasons_block .reasons_descr .reasons_text {
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}

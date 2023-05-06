@@ -1,0 +1,1 @@
+{"version":3,"sources":["_media.sass"],"names":[],"mappings":"AAAA,0BACE,WACE,cAAe,KAEjB,WACE,UAAW","file":"_media.min.css","sourcesContent":["@media (max-width: 1200px)\n    .menu\n        &_item\n            padding-right: 20px\n        &_link\n            font-size: 13px\n    "]}
