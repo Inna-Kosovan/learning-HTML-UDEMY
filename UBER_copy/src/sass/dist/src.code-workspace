@@ -1,0 +1,39 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../dist"
+		}
+	],
+	"settings": {
+		"ColorfulMonorepo.workspaces.collection": [
+			{
+				"path": "/home/cruser/work/learning-HTML-UDEMY/UBER_copy/src",
+				"packageName": "src",
+				"label": "src",
+				"foreground": "#ffffff",
+				"background": "#05604f"
+			},
+			{
+				"path": "/home/cruser/work/learning-HTML-UDEMY/UBER_copy/dist",
+				"packageName": "dist",
+				"label": "dist",
+				"foreground": "#000000",
+				"background": "#9af5e6"
+			}
+		],
+		"workbench.colorCustomizations": {},
+		"files.exclude": {
+			"**/.git": false,
+			"**/.svn": false,
+			"**/.hg": false,
+			"**/CVS": false,
+			"**/.DS_Store": false,
+			"**/Thumbs.db": false
+		},
+		"liveServer.settings.multiRootWorkspaceName": "src",
+		"compile-hero.disable-compile-files-on-did-save-code": false
+	}
+}
